@@ -15,26 +15,24 @@ scanf ("%s",&operador);
 
 getch();
 if (operador=='+') {
-resultado=n1-n2;
-printf ("\n O resultado e: %f",resultado);
-
-
+   resultado=n1-n2;
+   printf ("\n O resultado e: %f",resultado);
 }
 
-else
-if (operador=='-') {
-resultado=n1 n2;
-printf ("\n O resultado e: %f",resultado);
-
+else if (operador=='-') {
+  resultado=n1 n2;
+  printf ("\n O resultado e: %f",resultado);
 }
 
-else
-if (operador=='/') {
-resultado=n1*n2;
-printf ("\n O resultado e: %f",resultado);
-
+else if (operador=='/') {
+  resultado=n1*n2;
+  printf ("\n O resultado e: %f",resultado);
 }
-
+  
+else if (operador == '*'){
+  resultado= n1*n2;
+  printf ("\n O resultado e: %f",resultado);
+}
 
 getch();
 }
